@@ -145,8 +145,12 @@ const Menu = () => {
   };
   return (
     <div>
-      <section ref={ref} id="projects" className="mt-[250px] mb-[50px] ">
-        <h1 className="text-[50px] text-center text-[#35B8BE]">
+      <section
+        ref={ref}
+        id="projects"
+        className="mt-[130px] lg:mt-[250px] mb-[50px] "
+      >
+        <h1 className="text-[44px] lg:text-[50px] text-center text-[#35B8BE]">
           Browse our menu
         </h1>
         <p className="text-[#546285] text-[16px] text-center mt-[26px]">
@@ -156,7 +160,7 @@ const Menu = () => {
           </span>{" "}
           our store <br /> to place a pickup order. Fast and fresh food.
         </p>
-        <div className="flex flex-row justify-center items-center gap-2 py-6">
+        <div className="flex flex-row justify-center items-center gap-2 py-6 mx-3">
           <MenuTag
             onClick={handleTagChange}
             name="Burgers"
